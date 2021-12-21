@@ -1,6 +1,7 @@
- * @name Based test (Based off BasicBackground)
- * @description Adjusted version of DevilBros Basicbackground theme all links are Devil bros as I wont steal their code.
- * @author DevilBro, Nuddley
+/**
+ * @name BasicBackground
+ * @description Allows you to use a Background Image without greatly altering the basic Layout of Discord
+ * @author DevilBro
  * @version 1.0.5
  * @authorId 278543574059057154
  * @invite Jx3TjNS
@@ -9,10 +10,12 @@
  * @website https://mwittrien.github.io/
  * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground/
  * @updateUrl https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.theme.css
+ */
 
 /* To change stuff like the colors, transparency and background image, change the variables inside the root {}, do NOT change the @import url() */
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
+
 
 :root {
 	--transparencycolor:			0,0,0;						/* default:	0,0,0																								*/
@@ -23,11 +26,11 @@
 	--memberlisttransparency:		0.25;						/* default: 0.0					(additional darkness for member list)											*/
 	--accentcolor:					53, 161, 159;					/* default: 190,78,180			(RGB-format - blurple: 88,101,242 bd-blue: 58,113,193)							*/
 	
-	--font:							'VT323', monospace;		/* font used in most places														*/
+	--font:							'Roboto Mono', monospace;		/* font used in most places														*/
 	--textshadow:					transparent;				/* default: transparent			(textshadow for text ontop of accentcolor nodes, ONLY accepts a color, no px)	*/
 	--settingsicons:				1;							/* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no											*/
 	
-	--background:					url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/_res/background.jpg);	/* general background image				*/
+	--background:					url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);	/* general background image				*/
 	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
 	--backgroundsize:				cover;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
 	--backgroundblur:				unset;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
